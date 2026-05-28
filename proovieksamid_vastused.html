@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>8. klassi matemaatika — Proovieksamite vastused ja lahenduskäigud</title>
+<style>
+  @page { margin: 1.5cm; size: A4; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; color: #1e293b; line-height: 1.7; max-width: 900px; margin: 0 auto; padding: 20px; }
+  h1 { font-size: 28px; text-align: center; margin-top: 0; }
+  h2 { font-size: 22px; margin-top: 36px; border-bottom: 2px solid #0f172a; padding-bottom: 6px; }
+  h3 { font-size: 18px; margin-top: 24px; margin-bottom: 6px; color: #1e293b; }
+  .exam-subtitle { font-style: italic; color: #64748b; margin-top: -10px; margin-bottom: 20px; }
+  .question { margin-bottom: 28px; page-break-inside: avoid; }
+  .prompt { font-weight: 600; margin-bottom: 4px; }
+  .answer { color: #059669; font-weight: 700; }
+  .solution { margin-top: 6px; padding: 10px 14px; background: #f8fafc; border-left: 3px solid #0f172a; border-radius: 0 8px 8px 0; font-size: 15px; }
+  .solution b { color: #0f172a; }
+  .step { margin: 3px 0; padding-left: 12px; }
+  .footer { text-align: center; margin-top: 40px; color: #94a3b8; font-size: 13px; }
+  @media print {
+    body { padding: 0; }
+    h2 { break-after: avoid; }
+    .question { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<h1>8. klassi matemaatika<br>Proovieksamite vastused ja lahenduskäigud</h1>
+<p style="text-align:center; color:#64748b;">Materjal õpetajale — sisaldab kõiki kolme proovieksamit koos õigete vastuste ja samm-sammuliste selgitustega.</p>
+
+<!-- ==================== PROOVIEKSAM 1 ==================== -->
+<h2>Proovieksam 1</h2>
+<p class="exam-subtitle">Õppimiseks: põhireeglid ja lihtsamad arvud</p>
+
+<div class="question">
+  <h3>1. Sarnaste liikmete koondamine</h3>
+  <p class="prompt">Lihtsusta avaldis: 7x + 4x − 3x</p>
+  <p class="answer">Vastus: 8x</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Kõigil kolmel liikmel on sama täheosa <i>x</i> — need on sarnased liikmed.</p>
+    <p class="step">2. Sarnaste liikmete puhul liidame/lahutame ainult kordajaid (arvud tähe ees).</p>
+    <p class="step">3. 7 + 4 − 3 = 8</p>
+    <p class="step">4. Täheosa <i>x</i> jääb samaks. Vastus: <b>8x</b>.</p>
+    <b>Miks nii?</b> Sarnased liikmed on nagu samad asjad — 7 õuna + 4 õuna − 3 õuna = 8 õuna. Täht <i>x</i> näitab, millest jutt käib.
+  </div>
+</div>
+
+<div class="question">
+  <h3>2. Üksliikmete korrutamine</h3>
+  <p class="prompt">Korruta ja lihtsusta: −2a² · 4a</p>
+  <p class="answer">Vastus: −8a³</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Korrutan kordajad: −2 · 4 = −8.</p>
+    <p class="step">2. Korrutan täheosad: a² · a = a³ (sama alusega astmete korrutamisel astendajad liituvad: 2 + 1 = 3).</p>
+    <p class="step">3. Vastus: <b>−8a³</b>.</p>
+    <b>Miks nii?</b> Astendaja näitab, mitu korda alus on iseendaga korrutatud. a² = a·a ja a = a¹. Korrutades saame a·a·a = a³. See on sama mis astendajate liitmine: 2 + 1 = 3.
+  </div>
+</div>
+
+<div class="question">
+  <h3>3. Sulgude avamine</h3>
+  <p class="prompt">Ava sulud ja lihtsusta: 5(2x − 3) − 4x</p>
+  <p class="answer">Vastus: 6x − 15</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Korrutan sulgude ees oleva arvu 5 mõlema sulus oleva liikmega: 5·2x = 10x ja 5·(−3) = −15.</p>
+    <p class="step">2. Pärast sulgude avamist: 10x − 15 − 4x.</p>
+    <p class="step">3. Koondan sarnased liikmed: 10x − 4x = 6x.</p>
+    <p class="step">4. Arvuosa jääb −15. Vastus: <b>6x − 15</b>.</p>
+    <b>Miks nii?</b> Sulgude ees olev arv näitab, mitu korda kogu sulgu võtta — korrutustabeli põhimõte: iga liige eraldi läbi korrutada.
+  </div>
+</div>
+
+<div class="question">
+  <h3>4. Hulkliikmete korrutamine</h3>
+  <p class="prompt">Korruta: (x + 6)(x − 2)</p>
+  <p class="answer">Vastus: x² + 4x − 12</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Korrutan iga esimese sulu liikme iga teise sulu liikmega (kokku 4 korrutist):</p>
+    <p class="step" style="padding-left:24px;">x · x = x²</p>
+    <p class="step" style="padding-left:24px;">x · (−2) = −2x</p>
+    <p class="step" style="padding-left:24px;">6 · x = 6x</p>
+    <p class="step" style="padding-left:24px;">6 · (−2) = −12</p>
+    <p class="step">2. Koondan: x² − 2x + 6x − 12 = x² + 4x − 12.</p>
+    <p class="step">3. Vastus: <b>x² + 4x − 12</b>.</p>
+    <b>Miks nii?</b> Kahe sulu korrutamisel tekib alati n-ö "FOIL" muster (First, Outside, Inside, Last). Keskmised liikmed (−2x ja +6x) tuleb omavahel liita.
+  </div>
+</div>
+
+<div class="question">
+  <h3>5. Arvude leidmine (tekstülesanne)</h3>
+  <p class="prompt">Üks arv on teisest 9 võrra väiksem. Nende arvude summa on 45. Leia väiksem arv.</p>
+  <p class="answer">Vastus: 18</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Tähistan suurema arvu tähega <i>x</i>. Siis väiksem arv on <i>x − 9</i>.</p>
+    <p class="step">2. Kirjutan võrrandi summa kohta: x + (x − 9) = 45.</p>
+    <p class="step">3. Liidan sarnased: 2x − 9 = 45.</p>
+    <p class="step">4. Viin −9 teisele poole: 2x = 54.</p>
+    <p class="step">5. Jagan 2-ga: x = 27 (suurem arv).</p>
+    <p class="step">6. Väiksem arv: 27 − 9 = <b>18</b>.</p>
+    <b>Miks nii?</b> Tekstülesandes on kaks tundmatut (suurem ja väiksem arv), aga need on omavahel seotud. Väljendades mõlemat ühe tundmatu kaudu, saame ühe tundmatuga võrrandi.
+  </div>
+</div>
+
+<div class="question">
+  <h3>6. Rahaülesanne</h3>
+  <p class="prompt">Osteti 4 vihikut hinnaga 1,30 € ja 3 pastakat hinnaga 0,80 €. Kui palju maksti kokku?</p>
+  <p class="answer">Vastus: 7,60 €</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Vihikute koguhind: 4 · 1,30 = 5,20 €.</p>
+    <p class="step">2. Pastakate koguhind: 3 · 0,80 = 2,40 €.</p>
+    <p class="step">3. Kogusumma: 5,20 + 2,40 = <b>7,60 €</b>.</p>
+    <b>Miks nii?</b> Koguhinna leidmiseks korrutan koguse ühikuhinnaga ja siis liidan erinevate toodete summad.
+  </div>
+</div>
+
+<div class="question">
+  <h3>7. Kõrvunurgad sirgel</h3>
+  <p class="prompt">Joonisel on kaks kõrvunurka sirgel. Üks nurk on 65°. Leia teine nurk x.</p>
+  <p class="answer">Vastus: 115°</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Sirgnurk on 180° — kaks kõrvunurka moodustavad koos sirgnurga.</p>
+    <p class="step">2. x = 180° − 65° = <b>115°</b>.</p>
+    <b>Miks nii?</b> Sirgele joonistatud kaks kõrvuti asetsevat nurka täidavad kokku terve sirge, mille nurk on alati 180°. Kui ühte tean, siis teine on ülejääk 180°-st.
+  </div>
+</div>
+
+<div class="question">
+  <h3>8. Kesknurk ja piirdenurk</h3>
+  <p class="prompt">Ringis on kesknurk 120°. Leia samale kaarele toetuv piirdenurk x.</p>
+  <p class="answer">Vastus: 60°</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Piirdenurk on alati <b>pool</b> samale kaarele toetuvast kesknurgast.</p>
+    <p class="step">2. x = 120° : 2 = <b>60°</b>.</p>
+    <b>Miks nii?</b> Kesknurga tipp asub ringi keskpunktis, piirdenurga tipp ringjoonel. Geomeetriliselt on tõestatud, et piirdenurk on alati täpselt pool kesknurgast, kui nad toetuvad samale kaarele.
+  </div>
+</div>
+
+<div class="question">
+  <h3>9. Trapetsi pindala</h3>
+  <p class="prompt">Trapetsi alused on 14 cm ja 8 cm, kõrgus 5 cm. Leia pindala.</p>
+  <p class="answer">Vastus: 55 cm²</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Trapetsi pindala valem: S = ((a + b) · h) / 2, kus a ja b on alused, h on kõrgus.</p>
+    <p class="step">2. Asendan: S = ((14 + 8) · 5) / 2.</p>
+    <p class="step">3. S = (22 · 5) / 2 = 110 / 2 = <b>55 cm²</b>.</p>
+    <b>Miks nii?</b> Valem tuleb sellest, et trapetsi saab mõtteliselt "keskmistada" ristkülikuks, mille üks külg on aluste keskmine ((a+b)/2) ja teine külg on kõrgus.
+  </div>
+</div>
+
+<div class="question">
+  <h3>10. Trapetsi nurgad</h3>
+  <p class="prompt">Trapetsi alused on paralleelsed. Sama haara alumine nurk on 70°. Leia ülemine nurk x.</p>
+  <p class="answer">Vastus: 110°</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Trapetsi alused on paralleelsed. Sama haara juures olevad sisenurgad on samapoolsed nurgad paralleelsete sirgete lõikamisel.</p>
+    <p class="step">2. Samapoolsed sisenurgad annavad kokku 180°.</p>
+    <p class="step">3. x = 180° − 70° = <b>110°</b>.</p>
+    <b>Miks nii?</b> Kui kaks paralleelset sirget (alused) lõigata kolmanda sirgega (haar), siis tekivad samapoolsed nurgad, mille summa on 180°. See on paralleelsete sirgete põhiomadus.
+  </div>
+</div>
+
+<div class="question">
+  <h3>11. Sarnasustegur</h3>
+  <p class="prompt">Väiksema kolmnurga küljed on 4 cm, 5 cm ja 6 cm. Suurema vastav lühim külg on 12 cm. Leia suurema kolmnurga pikim külg.</p>
+  <p class="answer">Vastus: 18 cm</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Sarnasustegur näitab, mitu korda on suurem kujund väiksemast suurem. See leitakse vastavate külgede jagatisena.</p>
+    <p class="step">2. Väiksema lühim külg = 4 cm, suurema lühim = 12 cm. Sarnasustegur = 12 : 4 = 3.</p>
+    <p class="step">3. Väiksema pikim külg = 6 cm. Suurema pikim = 6 · 3 = <b>18 cm</b>.</p>
+    <b>Miks nii?</b> Sarnaste kujundite kõik vastavad küljed on samas suhtes (sarnasustegur). Kui ühe küljepaari abil tean tegurit, saan selle abil leida kõik teised küljed.
+  </div>
+</div>
+
+<div class="question">
+  <h3>12. Liitmisvõte (võrrandisüsteem)</h3>
+  <p class="prompt">Lahenda süsteem. Sisesta x väärtus: x + y = 15 ja x − y = 5</p>
+  <p class="answer">Vastus: x = 10, y = 5</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Mul on kaks võrrandit: ① x + y = 15, ② x − y = 5.</p>
+    <p class="step">2. Liidan võrrandid kokku: (x + y) + (x − y) = 15 + 5.</p>
+    <p class="step">3. Vasakul pool: x + x + y − y = 2x (+y ja −y taanduvad).</p>
+    <p class="step">4. Seega 2x = 20 → x = <b>10</b>.</p>
+    <p class="step">5. Asendan x esimesse võrrandisse: 10 + y = 15 → y = <b>5</b>.</p>
+    <b>Miks nii?</b> Liitmisvõte toimib, sest võrrandite liitmisel üks tundmatu "kaob ära" (+y ja −y nullivad teineteist). Alles jääb lihtne ühe tundmatuga võrrand.
+  </div>
+</div>
+
+
+<!-- ==================== PROOVIEKSAM 2 ==================== -->
+<h2>Proovieksam 2</h2>
+<p class="exam-subtitle">Kontrolliks: samad teemad, uued arvud ja natuke rohkem mõtlemist</p>
+
+<div class="question">
+  <h3>1. Sarnased ja mittesarnased liikmed</h3>
+  <p class="prompt">Lihtsusta: 9a − 4b + 3a + 7b</p>
+  <p class="answer">Vastus: 12a + 3b</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Rühmitan sarnased: a-liikmed (9a ja 3a) ja b-liikmed (−4b ja 7b).</p>
+    <p class="step">2. 9a + 3a = 12a.</p>
+    <p class="step">3. −4b + 7b = 3b.</p>
+    <p class="step">4. Vastus: <b>12a + 3b</b>.</p>
+    <b>Miks nii?</b> Erinevaid tähti (a ja b) ei tohi omavahel liita — need tähistavad erinevaid asju. Sarnased on ainult sama tähega liikmed.
+  </div>
+</div>
+
+<div class="question">
+  <h3>2. Astmetega korrutamine</h3>
+  <p class="prompt">Korruta ja lihtsusta: 3x²y · (−5xy³)</p>
+  <p class="answer">Vastus: −15x³y⁴</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Korrutan kordajad: 3 · (−5) = −15.</p>
+    <p class="step">2. x² · x = x³ (astendajad 2 + 1 = 3).</p>
+    <p class="step">3. y · y³ = y⁴ (astendajad 1 + 3 = 4).</p>
+    <p class="step">4. Vastus: <b>−15x³y⁴</b>.</p>
+    <b>Miks nii?</b> Kui korrutad astmeid sama alusega, siis astendajad liituvad. Erinevad tähed (x ja y) on erinevad alused — nende astendajaid ei liideta omavahel.
+  </div>
+</div>
+
+<div class="question">
+  <h3>3. Miinus sulgude ees</h3>
+  <p class="prompt">Ava sulud ja lihtsusta: 4(3x − 2) − 2(x + 5)</p>
+  <p class="answer">Vastus: 10x − 18</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Esimene sulg: 4(3x − 2) = 12x − 8.</p>
+    <p class="step">2. Teine sulg: −2(x + 5) = −2x − 10 (miinusmärk muudab mõlema märgi).</p>
+    <p class="step">3. Koondan: 12x − 8 − 2x − 10 = (12x − 2x) + (−8 − 10).</p>
+    <p class="step">4. 10x − 18. Vastus: <b>10x − 18</b>.</p>
+    <b>Miks nii?</b> Miinus sulgude ees tähendab, et iga liige sulu sees korrutatakse −1-ga — kõik märgid pööratakse ümber. Siin −2(x + 5) = −2·x + (−2)·5 = −2x − 10.
+  </div>
+</div>
+
+<div class="question">
+  <h3>4. Ruutude vahe</h3>
+  <p class="prompt">Korruta: (a − 7)(a + 7)</p>
+  <p class="answer">Vastus: a² − 49</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Korrutan läbi: a·a = a², a·7 = 7a, (−7)·a = −7a, (−7)·7 = −49.</p>
+    <p class="step">2. Keskmised liikmed: 7a − 7a = 0 — need taanduvad.</p>
+    <p class="step">3. Alles jääb a² − 49. Vastus: <b>a² − 49</b>.</p>
+    <b>Miks nii?</b> Kuju (u − v)(u + v) = u² − v² on tuntud "ruutude vahe" valem. Keskmised liikmed alati taanduvad, sest +uv ja −uv nullivad teineteist. Seda valemit tasub pähe õppida — see kiirendab arvutamist.
+  </div>
+</div>
+
+<div class="question">
+  <h3>5. Vanuseülesanne</h3>
+  <p class="prompt">Mari on 3 aastat vanem kui Jüri. Kokku on nad 27-aastased. Kui vana on Jüri?</p>
+  <p class="answer">Vastus: 12 (Jüri), Mari on 15</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Tähistan Jüri vanuse tähega x. Siis Mari vanus = x + 3.</p>
+    <p class="step">2. Summa: x + (x + 3) = 27.</p>
+    <p class="step">3. 2x + 3 = 27 → 2x = 24 → x = <b>12</b>.</p>
+    <p class="step">4. Kontroll: Jüri 12, Mari 15, summa 27.</p>
+    <b>Miks nii?</b> Tundmatu valik on vaba — võid tähistada kumbagi. Siin on Jüri valimine mugav, sest Mari väljendub Jüri kaudu lihtsalt (x + 3).
+  </div>
+</div>
+
+<div class="question">
+  <h3>6. Kiiruse ja teepikkuse ülesanne</h3>
+  <p class="prompt">Jalgrattur sõitis 2 tunniga 34 km. Teisel tunnil sõitis ta 4 km rohkem kui esimesel tunnil. Mitu km sõitis ta esimesel tunnil?</p>
+  <p class="answer">Vastus: 15 km</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Tähistan esimese tunni teepikkuse: x km.</p>
+    <p class="step">2. Teise tunni oma: x + 4 km (4 km rohkem).</p>
+    <p class="step">3. Kahe tunni summa: x + (x + 4) = 34.</p>
+    <p class="step">4. 2x + 4 = 34 → 2x = 30 → x = <b>15 km</b>.</p>
+    <p class="step">5. Teine tund: 15 + 4 = 19 km. Kontroll: 15 + 19 = 34.</p>
+    <b>Miks nii?</b> Jällegi kaks tundmatut (esimese ja teise tunni teepikkus), aga need on seotud: teine = esimene + 4. Saan kirjutada ühe tundmatuga võrrandi.
+  </div>
+</div>
+
+<div class="question">
+  <h3>7. Kõrvunurgad</h3>
+  <p class="prompt">Joonisel on kaks kõrvunurka sirgel. Üks nurk on 123°. Leia teine nurk x.</p>
+  <p class="answer">Vastus: 57°</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Kõrvunurkade summa on 180° (sirgnurk).</p>
+    <p class="step">2. x = 180° − 123° = <b>57°</b>.</p>
+    <b>Miks nii?</b> Sama reegel mis Proovieksam 1 ülesandes 7 — sirgele tõmmatud nurgad täidavad 180°. Ühe teadmine annab teise lahutamise teel.
+  </div>
+</div>
+
+<div class="question">
+  <h3>8. Kesknurgast piirdenurgaks</h3>
+  <p class="prompt">Ringis on kesknurk 86°. Leia samale kaarele toetuv piirdenurk x.</p>
+  <p class="answer">Vastus: 43°</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Reegel: piirdenurk = kesknurk : 2.</p>
+    <p class="step">2. x = 86° : 2 = <b>43°</b>.</p>
+    <b>Miks nii?</b> Iga kesknurk on kaks korda suurem kui samale kaarele toetuv piirdenurk. See on ringjoone geomeetria põhitõde, mis kehtib alati.
+  </div>
+</div>
+
+<div class="question">
+  <h3>9. Trapetsi pindala</h3>
+  <p class="prompt">Trapetsi alused on 18 cm ja 10 cm, kõrgus 6 cm. Leia pindala.</p>
+  <p class="answer">Vastus: 84 cm²</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. S = ((a + b) · h) / 2 = ((18 + 10) · 6) / 2.</p>
+    <p class="step">2. 18 + 10 = 28.</p>
+    <p class="step">3. 28 · 6 = 168.</p>
+    <p class="step">4. 168 : 2 = <b>84 cm²</b>.</p>
+    <b>Miks nii?</b> Valem on sama — alused liita, korrutada kõrgusega ja jagada kahega. Proovi mõelda, et trapets "keskmistatakse" ristkülikuks, mille laius on (a+b)/2.
+  </div>
+</div>
+
+<div class="question">
+  <h3>10. Trapetsi nurk</h3>
+  <p class="prompt">Trapetsi sama haara alumine nurk on 48°. Leia sama haara ülemine nurk x.</p>
+  <p class="answer">Vastus: 132°</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Paralleelsete aluste tõttu on sama haara nurgad samapoolsed sisenurgad.</p>
+    <p class="step">2. Nende summa on 180°.</p>
+    <p class="step">3. x = 180° − 48° = <b>132°</b>.</p>
+    <b>Miks nii?</b> Trapetsi definitsioon: vähemalt üks aluste paar on paralleelsed. Selle tõttu kehtivad kõik paralleelsete sirgete nurgaomadused, sh samapoolsete sisenurkade summa 180°.
+  </div>
+</div>
+
+<div class="question">
+  <h3>11. Sarnasustegur</h3>
+  <p class="prompt">Väiksema kolmnurga küljed on 5 cm, 7 cm ja 9 cm. Suurema vastav lühim külg on 15 cm. Leia suurema kolmnurga pikim külg.</p>
+  <p class="answer">Vastus: 27 cm</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Väiksema lühim külg = 5 cm, suurema lühim = 15 cm.</p>
+    <p class="step">2. Sarnasustegur = 15 : 5 = 3.</p>
+    <p class="step">3. Väiksema pikim külg = 9 cm.</p>
+    <p class="step">4. Suurema pikim = 9 · 3 = <b>27 cm</b>.</p>
+    <b>Miks nii?</b> Kordame: sarnastel kujunditel on kõik vastavad joonmõõtmed samas suhtes. Sarnasustegur k = suurema mõõt / väiksema vastav mõõt.
+  </div>
+</div>
+
+<div class="question">
+  <h3>12. Lahutamisvõte (võrrandisüsteem)</h3>
+  <p class="prompt">Lahenda süsteem. Sisesta x väärtus: 2x + y = 17 ja x + y = 11</p>
+  <p class="answer">Vastus: x = 6, y = 5</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Võrrandid: ① 2x + y = 17, ② x + y = 11.</p>
+    <p class="step">2. Mõlemas on +y — lahutamine kaotab y-i ära. Lahutan ② ①-st: (2x + y) − (x + y) = 17 − 11.</p>
+    <p class="step">3. Vasakul: 2x − x + y − y = x. Paremal: 6.</p>
+    <p class="step">4. Seega x = <b>6</b>.</p>
+    <p class="step">5. Asendan: 6 + y = 11 → y = <b>5</b>.</p>
+    <b>Miks nii?</b> Liitmis- ja lahutamisvõte on sama põhimõte: valin tehte, mis kaotab ühe tundmatu. Siin on mõlemas võrrandis +y, seega lahutamine (mitte liitmine) on õige valik. Liitmisel saaksin 3x + 2y = 28 — see poleks kasulik.
+  </div>
+</div>
+
+
+<!-- ==================== PROOVIEKSAM 3 ==================== -->
+<h2>Proovieksam 3</h2>
+<p class="exam-subtitle">Kinnitamiseks: segatud ülesanded ja eksamile sarnasem tunne</p>
+
+<div class="question">
+  <h3>1. Mitme tähega üksliikmed</h3>
+  <p class="prompt">Lihtsusta: 6xy − 2xy + 5x − 3x</p>
+  <p class="answer">Vastus: 4xy + 2x</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Rühmitan: xy-liikmed (6xy ja −2xy) ning x-liikmed (5x ja −3x).</p>
+    <p class="step">2. 6xy − 2xy = 4xy.</p>
+    <p class="step">3. 5x − 3x = 2x.</p>
+    <p class="step">4. Vastus: <b>4xy + 2x</b>.</p>
+    <b>Miks nii?</b> xy ja x ei ole sarnased, sest neil on erinev täheosa. Sarnased on AINULT täpselt sama täheosaga liikmed. xy ≠ x — esimeses on kaks tähte, teises üks.
+  </div>
+</div>
+
+<div class="question">
+  <h3>2. Jagamine üksliikmetega</h3>
+  <p class="prompt">Lihtsusta: 18a³b² : 6ab</p>
+  <p class="answer">Vastus: 3a²b</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Jagan kordajad: 18 : 6 = 3.</p>
+    <p class="step">2. Jagan a-d: a³ : a = a² (astendajad lahutuvad: 3 − 1 = 2).</p>
+    <p class="step">3. Jagan b-d: b² : b = b (astendajad: 2 − 1 = 1).</p>
+    <p class="step">4. Vastus: <b>3a²b</b>.</p>
+    <b>Miks nii?</b> Sama alusega astmete jagamisel astendajad lahutuvad (vastupidiselt korrutamisele, kus liituvad). a³ tähendab a·a·a ja a on a — pärast taandamist jääb a·a = a².
+  </div>
+</div>
+
+<div class="question">
+  <h3>3. Hulkliikme ruut</h3>
+  <p class="prompt">Korruta: (x − 4)²</p>
+  <p class="answer">Vastus: x² − 8x + 16</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. (x − 4)² = (x − 4)(x − 4). NB! See EI OLE (x − 4)(x + 4) — see oleks ruutude vahe.</p>
+    <p class="step">2. Korrutan: x·x = x², x·(−4) = −4x, (−4)·x = −4x, (−4)·(−4) = 16.</p>
+    <p class="step">3. Koondan: x² − 4x − 4x + 16 = <b>x² − 8x + 16</b>.</p>
+    <b>Miks nii?</b> Ruut tähendab, et avaldis korrutatakse iseendaga. See on levinud viga: õpilased arvavad, et (x − 4)² = (x − 4)(x + 4) = x² − 16. Tegelik valem: (a − b)² = a² − 2ab + b².
+  </div>
+</div>
+
+<div class="question">
+  <h3>4. Keerukam sulgude avamine</h3>
+  <p class="prompt">Ava sulud ja lihtsusta: 3(2x + 5) − (x − 4)</p>
+  <p class="answer">Vastus: 5x + 19</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. 3(2x + 5) = 6x + 15.</p>
+    <p class="step">2. −(x − 4) = −x + 4 (miinus muudab sulu sees mõlemad märgid).</p>
+    <p class="step">3. Koondan: 6x + 15 − x + 4 = (6x − x) + (15 + 4).</p>
+    <p class="step">4. 5x + 19. Vastus: <b>5x + 19</b>.</p>
+    <b>Miks nii?</b> −(x − 4) on sama mis −1·(x − 4) = −x + 4. Eriti oluline: −(−4) = +4, mitte −4. Mõlemad märgid muutuvad.
+  </div>
+</div>
+
+<div class="question">
+  <h3>5. Kahe ostu võrdlus</h3>
+  <p class="prompt">Kaks pliiatsit ja üks vihik maksavad 4 €. Üks pliiats maksab 0,80 €. Kui palju maksab vihik?</p>
+  <p class="answer">Vastus: 2,40 €</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Kahe pliiatsi hind: 2 · 0,80 = 1,60 €.</p>
+    <p class="step">2. Vihiku hind: 4,00 − 1,60 = <b>2,40 €</b>.</p>
+    <b>Miks nii?</b> Kogusummast lahutan pliiatsite summa, alles jääb vihiku hind. See on pöördtehe — antud on summa ja üks osa, leia teine osa.
+  </div>
+</div>
+
+<div class="question">
+  <h3>6. Võrrandiga tekstülesanne</h3>
+  <p class="prompt">Arvust võeti ära 7 ja tulemus korrutati 3-ga. Saadi 24. Leia arv.</p>
+  <p class="answer">Vastus: 15</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Tundmatu arv = x.</p>
+    <p class="step">2. "Arvust võeti ära 7" → x − 7.</p>
+    <p class="step">3. "Tulemus korrutati 3-ga" → 3(x − 7).</p>
+    <p class="step">4. "Saadi 24" → 3(x − 7) = 24.</p>
+    <p class="step">5. Jagan mõlemad pooled 3-ga: x − 7 = 8.</p>
+    <p class="step">6. Liidan 7: x = <b>15</b>.</p>
+    <b>Miks nii?</b> Tekstülesannete puhul on kõige tähtsam <em>tõlkida</em> eestikeelne tekst matemaatika keelde — samm-sammult. "Võeti ära" = lahutamine, "korrutati" = korrutamine. Pärast lahendan võrrandit tagurpidi: jagan, siis liidan.
+  </div>
+</div>
+
+<div class="question">
+  <h3>7. Kolmnurga nurk</h3>
+  <p class="prompt">Kolmnurga kaks nurka on 72° ja 38°. Leia kolmas nurk.</p>
+  <p class="answer">Vastus: 70°</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Kolmnurga sisenurkade summa on alati 180°.</p>
+    <p class="step">2. Kolmas nurk = 180° − 72° − 38°.</p>
+    <p class="step">3. 180° − 110° = <b>70°</b>.</p>
+    <b>Miks nii?</b> Iga kolmnurga sisenurgad annavad kokku täpselt 180°. See on geomeetria üks põhilisemaid reegleid, mis kehtib kõigi kolmnurkade kohta.
+  </div>
+</div>
+
+<div class="question">
+  <h3>8. Diameetrile toetuv nurk (Thalese teoreem)</h3>
+  <p class="prompt">Kolmnurk on ringi sees ning üks külg on ringi diameeter. Leia selle külje vastasnurk x.</p>
+  <p class="answer">Vastus: 90°</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Thalese teoreem: kui kolmnurga üks külg on ringi diameeter, siis selle külje vastasnurk on täisnurk.</p>
+    <p class="step">2. Seega x = <b>90°</b>.</p>
+    <b>Miks nii?</b> Diameeter jagab ringi kaheks võrdseks poolkaareks (180°). Diameetrile toetuv piirdenurk on pool sellest kaarest — 90°. See on Thalese teoreemi geomeetriline põhjendus.
+  </div>
+</div>
+
+<div class="question">
+  <h3>9. Kõrguse leidmine pindalast</h3>
+  <p class="prompt">Trapetsi pindala on 72 cm², alused on 10 cm ja 14 cm. Leia kõrgus.</p>
+  <p class="answer">Vastus: 6 cm</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Trapetsi pindala valem: S = ((a + b) · h) / 2.</p>
+    <p class="step">2. Asendan teadaolevad arvud: 72 = ((10 + 14) · h) / 2.</p>
+    <p class="step">3. Liidan alused: 10 + 14 = 24.</p>
+    <p class="step">4. 72 = (24 · h) / 2 → 72 = 12h.</p>
+    <p class="step">5. Jagan 12-ga: h = 72 : 12 = <b>6 cm</b>.</p>
+    <b>Miks nii?</b> See on pindala valemi "tagurpidi" kasutamine. Kui valem on S = (a+b)·h/2, siis kõrguse leidmiseks: h = 2S / (a+b) ehk h = 2·72 / 24 = 6. Siin on oluline, et õpilane oskaks valemit ümber teisendada.
+  </div>
+</div>
+
+<div class="question">
+  <h3>10. Võrdhaarse trapetsi nurgad</h3>
+  <p class="prompt">Võrdhaarse trapetsi üks alumine nurk on 65°. Leia üks ülemine nurk.</p>
+  <p class="answer">Vastus: 115°</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Paralleelsete aluste tõttu on sama haara nurgad samapoolsed sisenurgad (summa 180°).</p>
+    <p class="step">2. Ülemine nurk = 180° − 65° = <b>115°</b>.</p>
+    <p class="step">3. Võrdhaarses trapetsis on mõlemad ülemised nurgad võrdsed (115°) ja mõlemad alumised nurgad võrdsed (65°).</p>
+    <b>Miks nii?</b> Võrdhaarne trapets on sümmeetriline — haarad on võrdse pikkusega, mistõttu mõlemad alumised nurgad on võrdsed ja mõlemad ülemised nurgad on võrdsed. Kontroll: 65° + 115° + 65° + 115° = 360° (nelinurga nurkade summa).
+  </div>
+</div>
+
+<div class="question">
+  <h3>11. Sarnasuskülje leidmine</h3>
+  <p class="prompt">Väiksema kolmnurga küljed on 4 cm, 7 cm ja 10 cm. Suurema vastav lühim külg on 12 cm. Leia suurema kolmnurga keskmine külg.</p>
+  <p class="answer">Vastus: 21 cm</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Sarnasustegur = suurema lühim : väiksema lühim = 12 : 4 = <b>3</b>.</p>
+    <p class="step">2. Väiksema kolmnurga keskmine külg = 7 cm.</p>
+    <p class="step">3. Suurema keskmine külg = 7 · 3 = <b>21 cm</b>.</p>
+    <p class="step">4. Kontroll: suurema pikim külg oleks 10 · 3 = 30 cm. Kõik on samas suhtes.</p>
+    <b>Miks nii?</b> Sarnasustegur on universaalne — see kehtib kõikide vastavate külgede kohta. Vahet pole, kas otsin pikimat, lühimat või keskmist — korrutan alati sama teguriga.
+  </div>
+</div>
+
+<div class="question">
+  <h3>12. Perimeetriülesanne</h3>
+  <p class="prompt">Ristküliku ümbermõõt on 40 cm. Pikkus on 4 cm võrra suurem laiusest. Leia ristküliku pikkus.</p>
+  <p class="answer">Vastus: 12 cm (laius 8 cm)</p>
+  <div class="solution">
+    <b>Lahenduskäik:</b>
+    <p class="step">1. Tähistan laiuse: x cm. Siis pikkus = x + 4 cm.</p>
+    <p class="step">2. Ristküliku ümbermõõt P = 2 · (pikkus + laius) = 2 · ((x + 4) + x).</p>
+    <p class="step">3. Asendan: 2(x + 4 + x) = 40 → 2(2x + 4) = 40.</p>
+    <p class="step">4. Jagan 2-ga: 2x + 4 = 20.</p>
+    <p class="step">5. Lahutan 4: 2x = 16 → x = 8 cm (laius).</p>
+    <p class="step">6. Pikkus = 8 + 4 = <b>12 cm</b>.</p>
+    <p class="step">7. Kontroll: ümbermõõt = 2·(12 + 8) = 2·20 = 40 cm.</p>
+    <b>Miks nii?</b> Otsitakse pikkust, aga kõigepealt leian laiuse, sest pikkus on selle kaudu väljendatud. See on kahe tundmatuga ülesanne, kus tundmatud on omavahel seotud — sarnaselt eelmiste tekstülesannetega.
+  </div>
+</div>
+
+<div class="footer">
+  <p>8. klassi matemaatika proovieksamid — õpetaja materjal</p>
+  <p>Kokku 36 ülesannet kolmes proovieksamis. Iga ülesande juures on detailne samm-sammuline lahenduskäik ja selgitus "miks nii".</p>
+</div>
+
+</body>
+</html>
