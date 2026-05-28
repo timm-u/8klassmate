@@ -323,7 +323,7 @@ export default function App() {
             const isChecked = !!checked[q.id];
             const isCorrect = isChecked && equalsAny(answers[q.id], q.answer);
             const showHint = mode === "study" || showHints[q.id];
-            const showExplanation = mode === "study" || showSolutions || isChecked;
+            const showExplanation = mode === "study" || showSolutions || showHints[q.id];
 
             return (
               <motion.article key={q.id} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: Math.min(index * 0.015, 0.25) }} className="overflow-hidden rounded-[1.7rem] bg-white shadow-sm ring-1 ring-slate-200">
@@ -340,7 +340,7 @@ export default function App() {
                     {isChecked && (
                       <div className={`mt-4 flex items-start gap-3 rounded-2xl p-4 ${isCorrect ? "bg-emerald-50 text-emerald-900 ring-1 ring-emerald-200" : "bg-rose-50 text-rose-900 ring-1 ring-rose-200"}`}>
                         {isCorrect ? <CheckCircle2 className="mt-0.5 h-5 w-5" /> : <XCircle className="mt-0.5 h-5 w-5" />}
-                        <div><div className="font-black">{isCorrect ? "Õige!" : "Veel mitte päris."}</div>{!isCorrect && <div className="mt-1 text-sm">Vaata vihjet ja lahenduskäiku, siis proovi uuesti. Õige vastus: <b>{q.answer[0]}</b></div>}</div>
+                        <div><div className="font-black">{isCorrect ? "Õige!" : "Veel mitte päris."}</div>{!isCorrect && <div className="mt-1 text-sm">Proovi uuesti või vajuta Vihje nuppu.</div>}</div>
                       </div>
                     )}
                     {showHint && <div className="mt-4 rounded-2xl bg-amber-50 p-4 text-sm leading-6 text-amber-950 ring-1 ring-amber-200"><b>Vihje:</b> {q.hint}</div>}
