@@ -253,13 +253,15 @@ export default function App() {
               <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-semibold ring-1 ring-white/15">
                 <GraduationCap className="h-4 w-4" /> 8. klassi matemaatika
               </div>
-              <h1 className="max-w-3xl text-3xl font-black tracking-tight sm:text-5xl">Mitu interaktiivset proovieksamit koos õpetavate selgitustega</h1>
-              <p className="mt-4 max-w-3xl text-base leading-7 text-slate-300 sm:text-lg">
-                Vali proovieksam, lase õpilasel lahendada, kontrolli vastuseid ning ava vajadusel vihjed ja selgitused. Igas portsus on samad murekohad: algebra, tekstülesanded, nurgad, trapets, sarnasus ja võrrandisüsteemid.
-              </p>
-              <a href="./proovieksamid_vastused.html" className="mt-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-semibold text-white ring-1 ring-white/15 transition hover:bg-white/20">
-                <FileText className="h-4 w-4" /> Proovieksamite vastused ja lahenduskäigud
-              </a>
+              <h1 className="max-w-3xl text-3xl font-black tracking-tight sm:text-5xl">Proovieksamid</h1>
+              <div className="mt-4 flex flex-wrap items-center gap-3">
+                <span className="rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-slate-300 ring-1 ring-white/10">Algebra</span>
+                <span className="rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-slate-300 ring-1 ring-white/10">Tekstulesanded</span>
+                <span className="rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-slate-300 ring-1 ring-white/10">Nurgad</span>
+                <span className="rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-slate-300 ring-1 ring-white/10">Trapets</span>
+                <span className="rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-slate-300 ring-1 ring-white/10">Sarnasus</span>
+                <span className="rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-slate-300 ring-1 ring-white/10">Vorrandisusteemid</span>
+              </div>
             </div>
             <div className="rounded-3xl bg-white p-5 text-slate-900 shadow-lg lg:min-w-72">
               <div className="text-sm font-semibold text-slate-500">{activeExam.name}</div>
@@ -312,6 +314,7 @@ export default function App() {
             {showSolutions ? "Peida lahendused" : "Näita lahendusi"}
           </button>
           <button onClick={reset} className="inline-flex items-center gap-2 rounded-2xl bg-white px-4 py-3 text-sm font-bold text-slate-800 ring-1 ring-slate-200 transition hover:bg-slate-50"><RotateCcw className="h-4 w-4" /> Alusta seda proovieksamit uuesti</button>
+          <a href="./proovieksamid_vastused.html" className="inline-flex items-center gap-2 rounded-2xl bg-white px-4 py-3 text-sm font-bold text-slate-800 ring-1 ring-slate-200 transition hover:bg-slate-50"><FileText className="h-4 w-4" /> Vastused ja lahenduskäigud</a>
           <div className="ml-auto text-sm text-slate-500">{mode === "exam" ? "Testirežiim: proovi enne ise." : "Õpperežiim: vihjed ja selgitused on kohe nähtavad."}</div>
         </section>
 
