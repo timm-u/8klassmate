@@ -356,14 +356,6 @@ export default function App() {
           })}
         </section>
 
-        <section className="mt-8 rounded-[2rem] bg-slate-950 p-6 text-white shadow-xl sm:p-8">
-          <h2 className="text-2xl font-black">Soovitatud kasutus</h2>
-          <div className="mt-4 grid gap-3 md:grid-cols-2 lg:grid-cols-3">
-            {["1. Proovieksam 1: lahenda koos õpilasega ja selgita reegleid", "2. Proovieksam 2: lase õpilasel ise proovida, ava vihje ainult vajadusel", "3. Proovieksam 3: tee nagu päris kontrolltöö", "4. Vale vastuse korral lase tal oma lahenduskäik häälega selgitada", "5. Sama tüüpi vea puhul mine tagasi vastava teema juurde", "6. Lõpuks tee uuesti ainult need ülesanded, mis valesti läksid"].map((item) => (
-              <div key={item} className="rounded-2xl bg-white/10 p-4 text-sm font-semibold text-slate-200 ring-1 ring-white/10">{item}</div>
-            ))}
-          </div>
-        </section>
       </main>
     </div>
   );
